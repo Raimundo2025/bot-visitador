@@ -4,8 +4,7 @@ import os
 
 # 1. Configuración Directa (Para asegurar que no falle por variables de Coolify)
 TOKEN_TELEGRAM = "8725603893:AAF4hfK7XwMZ4vQARMe2HKvGvmhIFobB-U8"
-KEY_GEMINI = "AIzaSyC_-rQwTJ6Ii3Ck-eLEQNlorbaUfwOuTYw" # <--- AIzaSyC_-rQwTJ6Ii3Ck-eLEQNlorbaUfwOuTYw
-
+KEY_GEMINI = "AIzaSyA6x0wwwsXknvf4wcMrUrWT320FIdGZwTY" # <--- AIzaSyA6x0wwwsXknvf4wcMrUrWT320FIdGZwTY
 bot = telebot.TeleBot(TOKEN_TELEGRAM)
 genai.configure(api_key=KEY_GEMINI)
 model_ia = genai.GenerativeModel('gemini-1.5-flash')
